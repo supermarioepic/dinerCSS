@@ -1,0 +1,91 @@
+* {
+    transition: all 0.2s ease-in;
+}
+
+html {
+    background-color: #ffffff;
+}
+
+body {
+    background-color: rgb(59, 63, 69);
+    font-family: "Trebuchet", Arial, sans-serif;
+    margin: 25px;
+}
+
+.paragraph, .button{
+    background-color: rgb(74, 79, 86);
+    text-align: center;
+    padding: 15px;
+}
+
+.h1  {
+    font-size: 32px;
+    color: rgb(235, 126, 127);
+    line-height: 40px;
+}
+
+.h3 {
+    font-size: 18px;
+    color: rgb(235, 126, 127);
+    line-height: 35px;
+}
+
+.button {
+    color: rgb(235, 126, 127);
+    width: 800px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.list {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    cursor: pointer;
+}
+
+ul {
+    padding: 30px 0px;
+}
+
+li {
+    background-color: rgb(136, 131, 158);
+    line-height: 25px;
+    font-size: 22px;
+    padding: 10px;
+    color: white;
+    border: 3px solid transparent;
+}
+
+small {
+    font-size: 14px;
+}
+
+small::before {
+    content: "(";
+}
+
+small::after {
+    content: ")";
+}
+
+input {
+    width: 15px;
+    height: 15px;
+}
+
+li:nth-child(even) {
+    background: #7a7691;
+}
+
+li:hover {
+    background: #5f6174;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+input:checked + span{
+    text-decoration: line-through;
+    color: #a3a0b5;
+}
